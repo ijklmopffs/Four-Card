@@ -1,0 +1,104 @@
+body {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(0, 0%, 98%);
+}
+.first {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.first h2 {
+  font-weight: normal;
+  color: hsl(229, 6%, 66%);
+  font-size: 25px;
+  line-height: 1.2;
+  margin-block-end: 0;
+}
+.first h1 {
+  margin: 0;
+  font-size: 28px;
+  color: hsl(234, 12%, 34%);
+}
+.first p {
+  color: hsl(229, 6%, 66%);
+  line-height: 1.5;
+  width: 400px;
+}
+.second {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-block-start: 30px;
+}
+.box {
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  padding-block-start: 0;
+  width: 265px;
+  height: 190px;
+}
+.margin {
+  margin-block-start: 120px;
+}
+.box img {
+  display: flex;
+  align-self: flex-end;
+  margin-block-start: 20px;
+  width: 59px;
+  padding: 10px;
+}
+.line {
+  background-color: hsl(180, 62%, 55%);
+  width: 100%;
+  height: 4px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.box p {
+  margin: 0;
+  max-width: 220px;
+  color: hsl(229, 6%, 66%);
+}
+.box h2 {
+  margin-block-end: 4px;
+  color: hsl(234, 12%, 34%);
+}
+.team {
+  background-color: hsl(0, 78%, 62%);
+}
+.karma {
+  background-color: hsl(34, 97%, 64%);
+}
+.calculate {
+  background-color: hsl(212, 86%, 64%);
+}
+.middle {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media screen and (max-width: 420px) {
+  .first {
+    text-align: start;
+  }
+  .first p {
+    width: 100%;
+  }
+  .second {
+    flex-direction: column;
+  }
+  .margin {
+    margin-block-start: 3px;
+  }
+}
