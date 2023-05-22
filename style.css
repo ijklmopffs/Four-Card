@@ -87,11 +87,7 @@ body {
   flex-direction: column;
   gap: 10px;
 }
-
-@media screen and (max-width: 420px) {
-  .first {
-    text-align: start;
-  }
+@media screen and (max-width: 920px) {
   .first p {
     width: 100%;
   }
